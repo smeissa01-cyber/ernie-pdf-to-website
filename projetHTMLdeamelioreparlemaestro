@@ -1,0 +1,254 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WAJAAIS – Journal of AI & Agroecological Systems</title>  <!-- Description simple (SEO niveau L1/L2) -->  <meta name="description" content="WAJAAIS is an open-access scientific journal on Artificial Intelligence and Agroecological Systems in West Africa.">  <!-- Google Fonts -->  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">  <style>
+    :root{
+      --green:#2C6E49;
+      --gold:#D4AF37;
+      --bg:#f8fafb;
+      --card:#ffffff;
+      --text:#0f172a;
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family:Inter, Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+    }
+
+    h1,h2,h3{
+      font-family:Montserrat, sans-serif;
+    }
+
+    a{
+      text-decoration:none;
+      color:var(--green);
+      font-weight:600;
+    }
+
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:20px;
+    }
+
+    /* HEADER */
+    header{
+      background:linear-gradient(90deg,#2C6E49,#245539);
+      color:white;
+    }
+
+    .topbar{
+      display:flex;
+      align-items:center;
+      gap:15px;
+    }
+
+    .logo{
+      width:55px;
+      height:55px;
+      background:linear-gradient(#D4AF37,#f3d27a);
+      border-radius:10px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:bold;
+      color:#000;
+    }
+
+    nav{
+      margin-left:auto;
+    }
+
+    nav a{
+      margin:0 8px;
+      color:white;
+    }
+
+    .cta{
+      background:white;
+      color:var(--green);
+      padding:6px 12px;
+      border-radius:8px;
+    }
+
+    /* HERO */
+    .hero{
+      margin-top:25px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:20px;
+    }
+
+    .card{
+      background:var(--card);
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .badge{
+      display:inline-block;
+      background:rgba(44,110,73,0.1);
+      color:var(--green);
+      padding:5px 10px;
+      border-radius:20px;
+      font-size:13px;
+    }
+
+    /* MAIN LAYOUT */
+    .grid{
+      margin-top:30px;
+      display:grid;
+      grid-template-columns:2fr 1fr;
+      gap:25px;
+    }
+
+    section{
+      margin-bottom:25px;
+    }
+
+    /* ARTICLE */
+    .article{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:10px;
+    }
+
+    /* FORM */
+    label{
+      display:block;
+      margin-top:12px;
+      font-size:14px;
+    }
+
+    input, textarea{
+      width:100%;
+      padding:8px;
+      margin-top:5px;
+      border-radius:6px;
+      border:1px solid #ccc;
+    }
+
+    button{
+      margin-top:15px;
+      background:var(--green);
+      color:white;
+      border:none;
+      padding:10px 16px;
+      border-radius:8px;
+      cursor:pointer;
+    }
+
+    /* RESPONSIVE */
+    @media(max-width:900px){
+      .grid{grid-template-columns:1fr}
+      nav{display:none}
+    }
+
+    footer{
+      margin-top:30px;
+      padding:15px 0;
+      font-size:14px;
+      color:#555;
+      text-align:center;
+    }
+  </style></head><body><header>
+  <div class="container topbar">
+    <div class="logo">WAJ</div>
+    <div>
+      <strong>WAJAAIS</strong><br>
+      <small>Journal of AI & Agroecological Systems</small>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#scope">Scope</a>
+      <a href="#current">Issue</a>
+      <a href="#submit" class="cta">Submit</a>
+    </nav>
+  </div>
+</header><main class="container">  <div class="hero">
+    <div class="card" style="flex:2">
+      <h1>Advancing AI & Sustainable Agriculture in West Africa</h1>
+      <p>WAJAAIS publishes peer‑reviewed research in Artificial Intelligence, data science and agroecological systems.</p>
+      <span class="badge">Open Access – CC BY 4.0</span>
+    </div><div class="card" style="flex:1">
+  <h3>Current Volume</h3>
+  <p>Volume 1 – Issue 1 (2025)</p>
+</div>
+
+  </div>  <div class="grid"><div>
+  <section id="about" class="card">
+    <h2>About the Journal</h2>
+    <p>WAJAAIS is published by the Faculty of Applied Sciences and Technologies of Alioune Diop University of Bambey.</p>
+    <ul>
+      <li>Frequency: 2 issues per year</li>
+      <li>Languages: English & French</li>
+      <li>Open Access journal</li>
+    </ul>
+  </section>
+
+  <section id="scope" class="card">
+    <h2>Aims & Scope</h2>
+    <ul>
+      <li>Machine Learning & Deep Learning</li>
+      <li>Agroecology & climate adaptation</li>
+      <li>Remote sensing</li>
+      <li>IoT & smart agriculture</li>
+    </ul>
+  </section>
+
+  <section id="current" class="card">
+    <h2>Current Issue</h2>
+    <div class="article">
+      <div>
+        <strong>Hybrid Bi‑LSTM Models for Crop Yield Prediction</strong><br>
+        <small>Gueye P.E.A. et al. – DOI: pending</small>
+      </div>
+      <span class="badge">PDF</span>
+    </div>
+  </section>
+
+  <section id="submit" class="card">
+    <h2>Submit your Manuscript</h2>
+    <form onsubmit="event.preventDefault();alert('Thank you for submitting your article to WAJAAIS.');">
+      <label>Author Name</label>
+      <input required>
+
+      <label>Email</label>
+      <input type="email" required>
+
+      <label>Paper Title</label>
+      <input required>
+
+      <label>Abstract</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</div>
+
+<aside>
+  <div class="card">
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="#submit">Submit Manuscript</a></li>
+      <li><a href="#">Author Guidelines</a></li>
+      <li><a href="#">Editorial Policies</a></li>
+    </ul>
+  </div>
+</aside>
+
+  </div>
+</main><footer>
+  © 2025 WAJAAIS – Alioune Diop University of Bambey
+</footer></body>
+</html>
